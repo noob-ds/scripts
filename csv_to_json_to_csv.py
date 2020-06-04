@@ -19,7 +19,6 @@ def write_to_file(file_path, rows):
     for row in rows:
         obj.writerow(row)
 
-
 if __name__ == '__main__':
     results = []
     col = []
